@@ -1,0 +1,52 @@
+.fixed-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Asegura que el encabezado esté por encima del resto del contenido */
+}
+#inicio h2{
+    color: white;
+    text-align: center;
+    transition: transform 0.5s;
+}
+#inicio h2:hover{
+    background-color: none;
+    transform: scale(1.5);
+}
+#inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5), rgba(0,0,0,0.5)
+    ), 
+    url(../img/inicio2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#yoo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    background-image: url(../img/yo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.imagen{
+    transition: transform 0.8s;
+    background-color:  #A0138E;
+}
+.imagen:hover{
+    background-color: none;
+    transform: scale(1.1);
+    background-color: blueviolet;
+}
